@@ -1,0 +1,260 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: 'Open Sans';
+	
+}
+body,html{
+	color: #fff;
+	background-color: #39392E;
+	overflow: auto;
+}
+.wrapper{
+	
+}
+
+.intro{
+	width: 100%;
+	height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    display: grid;
+	grid-template-columns: 7% 86% 7%;
+	grid-template-rows: 100%;
+	text-align: center;
+}
+.intro-content{
+	background: rgba(10, 10, 10, 0.3);
+  	backdrop-filter: blur(10px);
+	grid-column: 1/4;
+	grid-row: 1;
+}
+
+.two{
+	background: radial-gradient(#727257, #303029);
+	grid-column: 2;
+	grid-row: 1;
+}
+.one{
+	background: linear-gradient(to top, #39392E, #C3BE3C, #39392E);
+	grid-column: 1;
+	grid-row: 1;
+	
+	
+}
+.three{
+	background: linear-gradient(to top, #39392E, #3974BA, #39392E);
+	grid-column: 3;
+	grid-row: 1;
+	
+}
+
+.light{
+	width: 16px;
+	display: block;
+	margin: 0 auto 150px auto;
+	padding-top: 25%;
+
+}
+h2{
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 6px;
+	color: #F6F6F6;
+
+}
+h3{
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 3px;
+	color: #F6F6F6;
+	margin-top: 15px;
+}
+p{
+	font-weight: 300;
+	font-size: 13px;
+	text-align: justify;
+	margin-bottom: 10px;
+	color: #F6F6F6;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+.creative{
+	color: #FF9E2D;
+}
+.and{
+	padding-top: 3px;
+	font-size: 11px;
+	margin-bottom: 90px;
+}
+
+.anast{
+	width: 280px;
+	height: 100px;
+	margin: 20px auto 20px auto;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+	border: 2px solid #D6D6D6;
+	border-radius: 5px;
+	
+	border-image: 
+    linear-gradient(
+      to bottom, 
+      #B9B9B9, 
+      rgba(0, 0, 0, 0)
+    ) 5 30% ;
+    
+	
+}
+.anast1{
+	letter-spacing: 5px;
+	padding-top: 13px;
+	padding-left: 5px;
+}
+.anast2{
+	letter-spacing: 40px;
+	text-align: center;
+	font-size: 33px;
+	padding-left: 40px;
+	line-height: 0.7;
+}
+.CV, .port{
+	text-decoration: none;
+	width: 180px;
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+}
+.CV h2, .port h2{
+	padding-top: 0px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.CV img, .port img{
+	width: 8px;
+	display: block;
+	border-color: #FF9E2D;
+	float: right;
+	padding-top: 4px;
+}
+.CV img{
+	padding-right: 50px;
+}
+.CV h2{
+	padding-left: 55px;
+}
+.signature{
+	width: 80px;
+	margin-top: 150px;
+}
+.signature_p{
+	width: 80px;
+	float: right;
+	margin: 13px 10px 0 0;
+}
+.blocks{
+	width: 180px;
+	height: 50px;
+	margin: 60px auto 15px auto;
+	border: 2px solid;
+	border-image: 
+    linear-gradient(
+      to left, 
+      rgba(0, 0, 0, 0),
+      #36362C, 
+      rgba(0, 0, 0, 0)
+    ) 40 5% ;
+}
+.arrow_down{
+	width: 20px;
+	margin-top: 150px;
+}
+.forP{
+	margin: 15px auto 0 auto;
+	width: 260px;
+}
+.projects{
+	width: 100%;
+	text-align: center;
+	background: rgba(10, 10, 10, 0.3);
+  	backdrop-filter: blur(10px);
+}
+.projects-content{
+	
+	grid-column: 1/4;
+	grid-row: 1;
+}
+.arrow_back{
+	width: 15px;
+	position: fixed;
+	margin: 15% 0 0 6%;
+	z-index: 99;
+}
+.proj1{
+	padding: 70px 0 10px 0;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #37292A, rgba(0, 0, 0, 0));
+
+}
+.proj1_inside{
+	max-width: 400px;
+	display: block;
+	margin: 0 auto 0 auto;
+	padding-bottom: 40px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	background: linear-gradient(to top, rgba(0, 0, 0, 0), #FD434C);
+}
+.proj1_inside p{
+	width: 70%;
+	margin: 0 auto 0 auto;
+	padding-bottom: 20px;
+}
+.proj1_inside h3{
+	padding: 10px 0 10px 0;
+}
+.proj1_inside img{
+	width: 100%;
+}
+.see_more{
+	width: 110px;
+	height: 35px;
+	margin: 0 auto 0 auto;
+	border: 1px solid white;
+}
+.see_more p{
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+/*
+
+.logo{
+    background: rgba(10, 10, 10, 0.3);
+	backdrop-filter: blur(15px);
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	position: fixed;
+	width: 100%;
+	height: 85px;
+	z-index: 99;
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+}
+.logo p{
+	font-weight:700;
+	color: #fff;
+	font-size: 13px;
+	padding: 0 10%;
+}
+.log-img{
+	background-image: url(images/logo-s.png);
+	width: 180px;
+	height: 80px;
+	background-repeat: no-repeat;
+}
+
+		background: linear-gradient(to top, #38766F, #535353);
+	}
+	
