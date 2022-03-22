@@ -1,0 +1,258 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: 'Open Sans';
+	
+}
+body,html{
+	color: #F6F6F6;
+	background-color: #1A1A1C;
+	overflow: auto;
+}
+.wrapper{
+	max-width: 768px;
+	height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+  box-shadow: 0 0 65px rgba(0,0,0,0.9);
+  display: flex;
+}
+.top-panel{
+	width: 190px;
+	height: 10%;
+	/*background-color: green;*/
+	position: fixed;
+	z-index: 99;
+	left: 50%; 
+	margin-left: -95px;
+}
+.language{
+	float: left;
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	margin: auto;
+	font-weight: 700;
+	font-size: 8pt;
+}
+.en{
+	width: 30px;
+	float: left;
+	color: #DADACF;
+}
+.uk{
+	width: 30px;
+	float: left;
+	color: #3C3C30;
+}
+.ru{
+	width: 30px;
+	float: left;
+	color: #3C3C30;
+}
+.circle{
+	width: 5px;
+	height: 5px;
+	background-color: #DADACF;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-top: 3px;
+}
+.two, .three{
+	background-color: #3C3C30;
+}
+.mode-switcher{
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+.mode-switcher img{
+	width: 11px;
+}
+
+.yellow{
+	width: 2%;
+	height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  background: linear-gradient(to top, rgba(0,0,0,0), #FFF500, rgba(0,0,0,0));
+  float: left;
+  filter: blur(15px);
+}
+.intro{
+	background-color: #grey;
+	width: 96%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blue{
+	width: 2%;
+	height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  background: linear-gradient(to top, rgba(0,0,0,0), #469BFF, rgba(0,0,0,0));
+  filter: blur(15px);
+  float: left;
+}
+.intro-content{
+
+}
+.hello{
+	margin: 0 auto;
+	text-align: center;
+}
+h1{
+	font-size: 18pt;
+}
+h2{
+	font-weight: 400;
+	font-size: 9pt;
+	letter-spacing: 6px;
+	color: #98987D;
+}
+h3{
+	font-weight: 700;
+	font-size: 12pt;
+	letter-spacing: 3px;
+	color: #98987D;
+}
+p{
+	font-weight: 300;
+	font-size: 13px;
+	text-align: justify;
+	margin-bottom: 10px;
+	color: #98987D;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+.anast{
+	position: relative;
+	width: 250px;
+	height: 100px;
+	margin: 12px auto 20px auto;
+	border: 2px solid #98987D;
+	border-radius: 3px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.anast::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  border: 5px solid rgba(152,152,125,.3);
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  filter: blur(3px);
+}
+.anast1{
+	letter-spacing: 5px;
+	margin-left: 5px;
+}
+.anast2{
+	letter-spacing: 40px;
+	font-size: 25pt;
+	line-height: 0.7;
+	margin: 0 0 5px 40px;
+}
+.creative{
+	color: #FF9E2D;
+	font-weight: 300;
+}
+.and{
+	font-size: 8pt;
+	padding-top: 3px;
+	letter-spacing: 5px;
+}
+.links{
+	width: 190px;
+	margin: 60px auto 0 auto;
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.links h2{
+	font-weight: 700;
+	color: #DADACF;
+	float: left;
+	margin-left: 5px;
+}
+.link{
+	margin: 0 0 10px 0;
+}
+.line{
+	height: 1px;
+	background-color: #3C3C30;
+	width: 100%;
+	margin-top: 4px;
+	float: left;
+}
+.link img{
+	width: 5px;
+	float: right;
+	margin: 2px 5px 0 0;
+	transform: rotate(180deg);
+}
+.darker h2{
+	color: #878787;
+}
+.circle_border{
+	width: 2px;
+	height: 2px;
+	margin: 0 auto;
+	border: 2px solid #878787;
+	border-radius: 50%;
+	margin: 5px 5px 0 0;
+	float: right;
+}
+.logo{
+	margin-top: 40px;
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 5%;
+}
+.logo img{
+	width: 80px;
+}
+
+
+
+
+
+/*
+
+.logo{
+    background: rgba(10, 10, 10, 0.3);
+	backdrop-filter: blur(15px);
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	position: fixed;
+	width: 100%;
+	height: 85px;
+	z-index: 99;
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+}
+.logo p{
+	font-weight:700;
+	color: #fff;
+	font-size: 13px;
+	padding: 0 10%;
+}
+.log-img{
+	background-image: url(images/logo-s.png);
+	width: 180px;
+	height: 80px;
+	background-repeat: no-repeat;
+}
+
+		background: linear-gradient(to top, #38766F, #535353);
+	}
+	
